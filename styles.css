@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poiret One', cursive; /* Updated font family */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    background-color: #ffffff; 
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.lion-paragraph {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.content {
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.spacer {
+    height: 100px;  
+}
+
+footer {
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+}
